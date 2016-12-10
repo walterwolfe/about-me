@@ -1,0 +1,85 @@
+#namelogo {
+	font-family: arial black, helvetica;
+	font-size: 55px;
+	color: #161C1A;
+	padding-top:70px; 
+	padding-right:; 
+	padding-left:63px;
+}
+
+.profilepicright{
+	float: right;
+}
+
+#tumblrlink{
+	font-family: helvetica;
+	font-size: 35px;
+	color:#1B2D3B;
+	padding-left: 68px;
+	text-decoration: none;
+	margin-top:-15px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #323232;
+}
+
+.bioparagraph {
+	font-size:30px; 
+	font-family:arial black,helvetica;
+	margin: auto;
+	width: 60%;
+	text-indent:60px;
+	color: #586063;
+}
+
+body {
+	font: 20px helvetica; 
+	
+}
+
+/* image gallery stying */
+.row-one {
+	float: left;
+	margin: 10px;
+	border: 6px solid black;
+	display: block;
+	margin-top: 50px;
+	margin-left: 45px;
+	margin-bottom: 50px;
+	margin-right: 5px;
+}
+
+.img-scaled {
+	max-width: 412px;
+	width:100%;
+	max-height: 411px;
+}
+@media all and (min-width: 460px){
+    body {
+
+
+       
+    } 
+}
+
+
+/*
+@media screen and (min-width: 380px) and (max-width: 1000px) {
+	.row-one {
+		width:100%;
+		height:auto 100%;
+
+		
+	}
+		
+	}
+
+
+
+
