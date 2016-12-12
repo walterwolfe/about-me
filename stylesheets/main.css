@@ -61,6 +61,7 @@ body {
 }
 
 /* image gallery stying */
+
 .row-one {
 	float: left;
 	margin: 10px;
@@ -83,19 +84,20 @@ body {
     body {
     	width: 100%;
 		 } 
-}q
+}
 
 
-/*
-@media screen and (min-width: 380px) and (max-width: 1000px) {
-	.row-one {
-		width:100%;
-		height:auto 100%;
+/* contact-me styling */
 
-		
-	}
-		
-	}
+
+
+
+
+
+
+
+
+
 
 
 
