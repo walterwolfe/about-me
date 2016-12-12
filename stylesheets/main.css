@@ -1,23 +1,35 @@
-#namelogo {
+#name-logo {
 	font-family: arial black, helvetica;
 	font-size: 55px;
 	color: #161C1A;
-	padding-top:70px; 
-	padding-right:; 
-	padding-left:63px;
+	
+	display: block;
+	padding-left: 26px;
+	margin-left: 30px;
+	margin-right: 920px;
 }
 
-.profilepicright{
+.profile-pic {
 	float: right;
+	display: block;
+	border: solid black 3px;
+	margin-right: 175px
+	
 }
 
-#tumblrlink{
+#tumblr-link{
 	font-family: helvetica;
-	font-size: 35px;
+	font-size: 40px;
 	color:#1B2D3B;
-	padding-left: 68px;
-	text-decoration: none;
-	margin-top:-15px;
+	border: solid black 3px;
+	margin-right: 770px;
+	margin-left: 66px;
+	margin-bottom: 50px;
+	margin-top: -50px;
+	display: inline-block;
+
+		
+	
 }
 
 a:link {
@@ -29,7 +41,7 @@ a:visited {
     color: #323232;
 }
 
-.bioparagraph {
+.bio-paragraph {
 	font-size:30px; 
 	font-family:arial black,helvetica;
 	margin: auto;
@@ -37,6 +49,11 @@ a:visited {
 	text-indent:60px;
 	color: #586063;
 }
+
+.about {
+
+}
+
 
 body {
 	font: 20px helvetica; 
@@ -59,14 +76,14 @@ body {
 	max-width: 412px;
 	width:100%;
 	max-height: 411px;
+	display: block;
+	float: left;
 }
-@media all and (min-width: 460px){
+@media all and (min-width: 375px){
     body {
-
-
-       
-    } 
-}
+    	width: 100%;
+		 } 
+}q
 
 
 /*
