@@ -72,6 +72,7 @@ body {
 	margin-bottom: 50px;
 	margin-right: 5px;
 }
+}
 
 .img-scaled {
 	max-width: 412px;
@@ -89,7 +90,10 @@ body {
 
 /* contact-me styling */
 
-
+.hand-image {
+	float: right;
+	
+}
 
 
 
