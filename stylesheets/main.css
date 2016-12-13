@@ -90,11 +90,29 @@ body {
 
 /* contact-me styling */
 
+
+
 .hand-image {
 	float: right;
-	
+	border: solid black 1px;
+	margin:0 0 10px 10px;
+
+
 }
 
+.contact-me-paragraph {
+	font-size:30px;
+	font-family:'raleway', sans-serif;
+	border: solid black 1px;
+	float: left;
+	display:block;
+	padding-right:50px;
+	margin-right:1000px; 
+	margin-left:180px;
+	margin-top: 10px;
+
+	
+}
 
 
 
