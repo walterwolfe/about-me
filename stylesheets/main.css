@@ -14,7 +14,6 @@
 	display: block;
 	border: solid black 3px;
 	margin-right: 175px
-	
 }
 
 #tumblr-link{
@@ -27,9 +26,6 @@
 	margin-bottom: 50px;
 	margin-top: -50px;
 	display: inline-block;
-
-		
-	
 }
 
 a:link {
@@ -50,37 +46,42 @@ a:visited {
 	color: #586063;
 }
 
-.about {
-
-}
-
-
 body {
 	font: 20px helvetica; 
 	
 }
 
-/* image gallery stying */
+/* 	IMAGE-GALLERY STYLING */
+
+.local-links-image-gallery {
+	float:left;
+	border: 1px solid black;
+	display:inline;
+	margin-bottom: 10px;
+	margin-right: 50px;
+	margin-left: 50px;
+	
+}
 
 .row-one {
-	float: left;
-	margin: 10px;
+	float:left;
 	border: 6px solid black;
-	display: block;
-	margin-top: 50px;
-	margin-left: 45px;
-	margin-bottom: 50px;
-	margin-right: 5px;
-}
+	display: inline-block;
+	margin-top: 200px;
+	margin-right:0px; 
+	margin-left:30px;
+	margin-bottom: 30px;
+	padding: 0px 0px 0px 0px;
 }
 
 .img-scaled {
 	max-width: 412px;
 	width:100%;
-	max-height: 411px;
+	max-height: 412px;
 	display: block;
-	float: left;
+	float:;
 }
+
 @media all and (min-width: 375px){
     body {
     	width: 100%;
@@ -88,30 +89,32 @@ body {
 }
 
 
-/* contact-me styling */
+/* CONTACT-ME STYLING */
 
+.local-links-contact-me { 
+	font-size: 50px;
+	display: inline;
+	margin-left: 5px;
+	padding-left: 30px;
+}
 
 
 .hand-image {
 	float: right;
-	border: solid black 1px;
-	margin:0 0 10px 10px;
-
-
+	border:;
+	margin:;
 }
 
 .contact-me-paragraph {
 	font-size:30px;
 	font-family:'raleway', sans-serif;
-	border: solid black 1px;
+	border:;
 	float: left;
 	display:block;
-	padding-right:50px;
-	margin-right:1000px; 
-	margin-left:180px;
-	margin-top: 10px;
-
-	
+	padding-right:20px;
+	margin-right:200px; 
+	margin-left:90px;
+	margin-top: ;
 }
 
 
