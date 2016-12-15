@@ -50,17 +50,17 @@ body {
 
 .local-links-image-gallery {
 	float:left;
-	border: 1px solid black;
 	display:inline;
 	margin-bottom: 10px;
 	margin-right: 50px;
-	margin-left: 50px;
 	
+	font-size: 50px;
+	font-family: 'raleway', sans-serif;
+	font-weight: bold;
 }
 
 .wrapper {
 	clear: both;
-	border: 1px solid black;
 	overflow: auto;
 }
 
@@ -68,7 +68,7 @@ body {
 	float:left;
 	border: 6px solid black;
 	display: inline-block;
-	margin-top: 200px;
+	margin-top: 20px;
 	margin-right:0px; 
 	margin-left:30px;
 	margin-bottom: 30px;
@@ -94,6 +94,7 @@ body {
 
 .local-links-contact-me { 
 	font-size: 50px;
+	font-weight: bold;
 	display: inline;
 	margin-left: 58px;
 	padding-left: 30px;
@@ -103,8 +104,7 @@ body {
 
 .hand-image {
 	float: right;
-	border:;
-	margin:;
+	
 }
 
 .contact-me-paragraph {
