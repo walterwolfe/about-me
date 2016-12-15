@@ -1,3 +1,4 @@
+
 /* INDEX.HTML STYLING */
 
 #index-container {
@@ -7,9 +8,6 @@
 	margin: 0px 0px 0px 5px;
 }
 
-
-
-
 .name-logo {
 	font-family: 'raleway',arial black, helvetica;
 	font-size: 50px;
@@ -18,8 +16,7 @@
 	float: left;
 	font-weight: bold;
 	margin-right:55px;
-	margin-left: 
-
+	
 }
 
 .local-link-index {
@@ -29,9 +26,7 @@
 	font-family: 'raleway', sans-serif;
 	font-weight: bold;
 	padding:0px 0px 0px 0px;  
-	margin:0px 25px 0px 0px;
-
-
+	margin:0px 50px 0px 0px;
 }
 
 .about {
@@ -46,6 +41,7 @@
 	margin-right: 175px
 }
 
+/* ALL LINKS STYLING */
 
 a:link {
 	text-decoration: none;
@@ -62,12 +58,7 @@ a:visited {
 	margin:60px 0px 0px 0px;
 	text-indent:60px;
 	color: #586063;
-	
-
-
 }
-
-
 
 /* 	IMAGE-GALLERY STYLING */
 
@@ -76,7 +67,6 @@ a:visited {
 	display:inline;
 	margin-bottom: 10px;
 	margin-right: 50px;
-	
 	font-size: 50px;
 	font-family: 'raleway', sans-serif;
 	font-weight: bold;
@@ -95,7 +85,7 @@ a:visited {
 	margin-right:0px; 
 	margin-left:30px;
 	margin-bottom: 30px;
-	padding: 0px 0px 0px 0px;
+	
 }
 
 .img-scaled {
@@ -103,7 +93,7 @@ a:visited {
 	width:100%;
 	max-height: 412px;
 	display: block;
-	float:;
+	
 }
 
 @media all and (min-width: 375px){
@@ -122,25 +112,23 @@ a:visited {
 	display: inline;
 	padding-left: 30px;
 	font-family: 'raleway', sans-serif;
+	margin-right: 50px;
 }
-
 
 .hand-image {
 	float: right;
-	
 }
 
 .contact-me-paragraph {
 	font-size:30px;
 	font-family:'raleway', sans-serif;
-	border:;
 	float: left;
 	display:block;
 	padding-right:20px;
 	margin-right:200px; 
 	margin-left:90px;
-	margin-top: ;
 }
+
 
 
 
