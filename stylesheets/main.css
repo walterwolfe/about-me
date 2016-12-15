@@ -1,18 +1,42 @@
 /* INDEX.HTML STYLING */
 
-#name-logo {
-	font-family: arial black, helvetica;
-	font-size: 55px;
-	color: #161C1A;
+#index-container {
 	
-	display: block;
-	padding-left: 26px;
-	margin-left: 30px;
-	margin-right: 920px;
+	display: inline-block;
+	padding: 0px 500px 20px 0px;
+	margin: 0px 0px 0px 5px;
+}
+
+
+
+
+.name-logo {
+	font-family: 'raleway',arial black, helvetica;
+	font-size: 50px;
+	color: #161C1A;
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	margin-right:55px;
+	margin-left: 
+
 }
 
 .local-link-index {
+	display:inline-block;
+	float:left;
+	font-size: 50px;
+	font-family: 'raleway', sans-serif;
+	font-weight: bold;
+	padding:0px 0px 0px 0px;  
+	margin:0px 25px 0px 0px;
 
+
+}
+
+.about {
+	clear: both;
+	overflow: auto;
 }
 
 .profile-pic {
@@ -34,17 +58,16 @@ a:visited {
 
 .bio-paragraph {
 	font-size:40px; 
-	font-family:"raleway",arial black,helvetica;
-	margin: auto;
-	width: 60%;
+	font-family:'raleway',arial black,helvetica;
+	margin:60px 0px 0px 0px;
 	text-indent:60px;
 	color: #586063;
+	
+
+
 }
 
-body {
-	font: 20px helvetica; 
-	
-}
+
 
 /* 	IMAGE-GALLERY STYLING */
 
@@ -59,7 +82,7 @@ body {
 	font-weight: bold;
 }
 
-.wrapper {
+.img-wrapper {
 	clear: both;
 	overflow: auto;
 }
@@ -93,10 +116,10 @@ body {
 /* CONTACT-ME STYLING */
 
 .local-links-contact-me { 
+	float: left;
 	font-size: 50px;
 	font-weight: bold;
 	display: inline;
-	margin-left: 58px;
 	padding-left: 30px;
 	font-family: 'raleway', sans-serif;
 }
