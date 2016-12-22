@@ -1,43 +1,35 @@
 
 /* INDEX.HTML STYLING */
 
-#index-container {
-	
-	display: inline-block;
-	padding: 0px 500px 20px 0px;
-	margin: 0px 0px 0px 5px;
+
+.index-container {
+	padding: 50px 0 0px 0px;
 }
 
-.name-logo {
-	font-family: 'raleway',arial black, helvetica;
-	font-size: 50px;
-	color: #161C1A;
-	display: inline-block;
-	float: left;
-	font-weight: bold;
-	margin-right:55px;
-	
-}
-
-.local-link-index {
-	display:inline-block;
-	float:left;
+.nav-main { 
 	font-size: 50px;
 	font-family: 'raleway', sans-serif;
 	font-weight: bold;
-	padding:0px 0px 0px 0px;  
-	margin:0px 50px 0px 0px;
+	padding: 0px 0 0px 0px;  
+	margin: 0px 0px 20px 20px;
+	list-style: none;
+	overflow: auto;
+}
+
+.nav-main li {
+	display: block;
+	float: left;
+	margin-right: 50px;
 }
 
 .about {
-	clear: both;
+	clear:auto;
 	overflow: auto;
 }
 
 .profile-pic {
 	float: right;
 	display: block;
-	border: solid black 3px;
 	margin-right: 175px
 }
 
