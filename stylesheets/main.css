@@ -35,13 +35,21 @@
 
 /* ALL LINKS STYLING */
 
-a:link {
+a,
+a:link,
+a:visited {
 	text-decoration: none;
+	color: #323232;
 }
 
-a:visited {
-    text-decoration: none;
-    color: #323232;
+a:hover,
+a:active {
+	color: red;
+}
+
+
+a:active {
+	color:blue;
 }
 
 .bio-paragraph {
